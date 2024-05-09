@@ -1,0 +1,29 @@
+{
+  "name": "Hello, Express",
+  "version": "0.5",
+  "description": "A Node.js project, ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "demo": "node ./project/demo6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschenk10-ivy-tech/SDEV-255-Spring-2024"
+  },
+  "author": "Khristin Schenk",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/kschenk10-ivy-tech/SDEV-255-Spring-2024"
+  },
+  "homepage": "https://github.com/kschenk10-ivy-tech/SDEV-255-Spring-2024",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3"
+  }
+}
